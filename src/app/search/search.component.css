@@ -1,9 +1,8 @@
 section{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap
 }
 
 .searchBar{
@@ -35,6 +34,11 @@ button{
 
 .container{
   margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .card{
