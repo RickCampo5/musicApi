@@ -1,0 +1,13 @@
+<section>
+  <div class="searchBar">
+    <input [(ngModel)]="searchText" type="text" placeholder="Busca por artista">
+    <button (click)="search()">Buscar</button>
+  </div>
+  <section class="container">
+    <div class="card" *ngFor="let artist of artist.artists">
+      <h2>{{artist.name}}</h2>
+      <p>{{artist.country}}</p>
+      <p>{{artist.disambiguation}}</p>
+    </div>
+  </section>
+</section>
